@@ -15,17 +15,9 @@
                 <GradientStop Color="#FF158F8F" Offset="1"/>
             </LinearGradientBrush>
         </Grid.Background>
-        <Viewbox Margin="10,19,17,19" Stretch="Fill">
+        <Viewbox Margin="10" Stretch="Fill">
             <Grid Height="135" Width="120">
-                <Button Content="0" HorizontalAlignment="Left" Height="13" Margin="0,122,0,0" VerticalAlignment="Top" Width="45" IsDefault="True" FontFamily="Arial" FontSize="9" Foreground="#FF080A0A" BorderBrush="#FF26B1DA" RenderTransformOrigin="0.5,0.5">
-                    <Button.RenderTransform>
-                        <TransformGroup>
-                            <ScaleTransform/>
-                            <SkewTransform/>
-                            <RotateTransform/>
-                            <TranslateTransform/>
-                        </TransformGroup>
-                    </Button.RenderTransform>
+                <Button Content="0" HorizontalAlignment="Left" Height="13" VerticalAlignment="Top" IsDefault="True" FontFamily="Arial" FontSize="9" Foreground="#FF080A0A" BorderBrush="#FF26B1DA" RenderTransformOrigin="0.5,0.5" Width="46" Margin="0,122,0,0">
                     <Button.LayoutTransform>
                         <TransformGroup>
                             <ScaleTransform/>
@@ -41,6 +33,14 @@
                             <GradientStop Color="#FF519787"/>
                         </LinearGradientBrush>
                     </Button.Background>
+                    <Button.RenderTransform>
+                        <TransformGroup>
+                            <ScaleTransform/>
+                            <SkewTransform/>
+                            <RotateTransform/>
+                            <TranslateTransform/>
+                        </TransformGroup>
+                    </Button.RenderTransform>
                 </Button>
                 <Button Content="," HorizontalAlignment="Left" Height="13" Margin="50,122,0,0" VerticalAlignment="Top" Width="20" IsDefault="True" FontFamily="Arial" FontSize="9" Foreground="#FF080A0A" BorderBrush="#FF26B1DA" RenderTransformOrigin="0.5,0.5">
                     <Button.RenderTransform>
@@ -67,7 +67,7 @@
                         </LinearGradientBrush>
                     </Button.Background>
                 </Button>
-                <Button Content="+" HorizontalAlignment="Left" Height="13" Margin="75,122,0,0" VerticalAlignment="Top" Width="20" IsDefault="True" FontFamily="Arial" FontSize="9" Foreground="#FF080A0A" BorderBrush="#FF26B1DA" RenderTransformOrigin="0.5,0.5">
+                <Button Content="+" HorizontalAlignment="Left" Height="13" Margin="76,122,0,0" VerticalAlignment="Top" Width="20" IsDefault="True" FontFamily="Arial" FontSize="9" Foreground="#FF080A0A" BorderBrush="#FF26B1DA" RenderTransformOrigin="0.5,0.5">
                     <Button.RenderTransform>
                         <TransformGroup>
                             <ScaleTransform/>
@@ -142,7 +142,7 @@
                         </LinearGradientBrush>
                     </Button.Background>
                 </Button>
-                <Button Content="2" HorizontalAlignment="Left" Height="13" Margin="25,104,0,0" VerticalAlignment="Top" Width="20" IsDefault="True" FontFamily="Arial" FontSize="9" Foreground="#FF080A0A" BorderBrush="#FF26B1DA" RenderTransformOrigin="0.5,0.5">
+                <Button Content="2" HorizontalAlignment="Left" Height="13" Margin="26,104,0,0" VerticalAlignment="Top" Width="20" IsDefault="True" FontFamily="Arial" FontSize="9" Foreground="#FF080A0A" BorderBrush="#FF26B1DA" RenderTransformOrigin="0.5,0.5">
                     <Button.RenderTransform>
                         <TransformGroup>
                             <ScaleTransform/>
@@ -192,7 +192,7 @@
                         </LinearGradientBrush>
                     </Button.Background>
                 </Button>
-                <Button Content="-" HorizontalAlignment="Left" Height="13" Margin="75,104,0,0" VerticalAlignment="Top" Width="20" IsDefault="True" FontFamily="Arial" FontSize="9" Foreground="#FF080A0A" BorderBrush="#FF26B1DA" RenderTransformOrigin="0.5,0.5">
+                <Button Content="-" HorizontalAlignment="Left" Height="13" Margin="76,104,0,0" VerticalAlignment="Top" Width="20" IsDefault="True" FontFamily="Arial" FontSize="9" Foreground="#FF080A0A" BorderBrush="#FF26B1DA" RenderTransformOrigin="0.5,0.5">
                     <Button.RenderTransform>
                         <TransformGroup>
                             <ScaleTransform/>
@@ -242,7 +242,7 @@
                         </LinearGradientBrush>
                     </Button.Background>
                 </Button>
-                <Button Content="5" HorizontalAlignment="Left" Height="13" Margin="25,86,0,0" VerticalAlignment="Top" Width="20" IsDefault="True" FontFamily="Arial" FontSize="9" Foreground="#FF080A0A" BorderBrush="#FF26B1DA" RenderTransformOrigin="0.5,0.5">
+                <Button Content="5" HorizontalAlignment="Left" Height="13" Margin="26,86,0,0" VerticalAlignment="Top" Width="20" IsDefault="True" FontFamily="Arial" FontSize="9" Foreground="#FF080A0A" BorderBrush="#FF26B1DA" RenderTransformOrigin="0.5,0.5">
                     <Button.RenderTransform>
                         <TransformGroup>
                             <ScaleTransform/>
@@ -292,7 +292,7 @@
                         </LinearGradientBrush>
                     </Button.Background>
                 </Button>
-                <Button Content="*" HorizontalAlignment="Left" Height="13" Margin="75,86,0,0" VerticalAlignment="Top" Width="20" IsDefault="True" FontFamily="Arial" FontSize="9" Foreground="#FF080A0A" BorderBrush="#FF26B1DA" RenderTransformOrigin="0.5,0.5">
+                <Button Content="*" HorizontalAlignment="Left" Height="13" Margin="76,86,0,0" VerticalAlignment="Top" Width="20" IsDefault="True" FontFamily="Arial" FontSize="9" Foreground="#FF080A0A" BorderBrush="#FF26B1DA" RenderTransformOrigin="0.5,0.5">
                     <Button.RenderTransform>
                         <TransformGroup>
                             <ScaleTransform/>
@@ -367,7 +367,7 @@
                         </LinearGradientBrush>
                     </Button.Background>
                 </Button>
-                <Button Content="8" HorizontalAlignment="Left" Height="13" Margin="25,69,0,0" VerticalAlignment="Top" Width="20" IsDefault="True" FontFamily="Arial" FontSize="9" Foreground="#FF080A0A" BorderBrush="#FF26B1DA" RenderTransformOrigin="0.5,0.5">
+                <Button Content="8" HorizontalAlignment="Left" Height="13" Margin="26,69,0,0" VerticalAlignment="Top" Width="20" IsDefault="True" FontFamily="Arial" FontSize="9" Foreground="#FF080A0A" BorderBrush="#FF26B1DA" RenderTransformOrigin="0.5,0.5">
                     <Button.RenderTransform>
                         <TransformGroup>
                             <ScaleTransform/>
@@ -417,7 +417,7 @@
                         </LinearGradientBrush>
                     </Button.Background>
                 </Button>
-                <Button Content="/" HorizontalAlignment="Left" Height="13" Margin="75,69,0,0" VerticalAlignment="Top" Width="20" IsDefault="True" FontFamily="Arial" FontSize="9" Foreground="#FF080A0A" BorderBrush="#FF26B1DA" RenderTransformOrigin="0.5,0.5">
+                <Button Content="/" HorizontalAlignment="Left" Height="13" Margin="76,69,0,0" VerticalAlignment="Top" Width="20" IsDefault="True" FontFamily="Arial" FontSize="9" Foreground="#FF080A0A" BorderBrush="#FF26B1DA" RenderTransformOrigin="0.5,0.5">
                     <Button.RenderTransform>
                         <TransformGroup>
                             <ScaleTransform/>
@@ -492,7 +492,7 @@
                         </LinearGradientBrush>
                     </Button.Background>
                 </Button>
-                <Button Content="CE" HorizontalAlignment="Left" Height="13" Margin="25,50,0,0" VerticalAlignment="Top" Width="20" IsDefault="True" FontFamily="Arial" FontSize="9" Foreground="#FF080A0A" BorderBrush="#FF26B1DA" RenderTransformOrigin="0.5,0.5">
+                <Button Content="CE" HorizontalAlignment="Left" Height="13" Margin="26,50,0,0" VerticalAlignment="Top" Width="20" IsDefault="True" FontFamily="Arial" FontSize="9" Foreground="#FF080A0A" BorderBrush="#FF26B1DA" RenderTransformOrigin="0.5,0.5">
                     <Button.RenderTransform>
                         <TransformGroup>
                             <ScaleTransform/>
@@ -542,7 +542,7 @@
                         </LinearGradientBrush>
                     </Button.Background>
                 </Button>
-                <Button Content="±" HorizontalAlignment="Left" Height="13" Margin="75,51,0,0" VerticalAlignment="Top" Width="20" IsDefault="True" FontFamily="Arial" FontSize="9" Foreground="#FF080A0A" BorderBrush="#FF26B1DA" RenderTransformOrigin="0.5,0.5">
+                <Button Content="±" HorizontalAlignment="Left" Height="13" Margin="76,51,0,0" VerticalAlignment="Top" Width="20" IsDefault="True" FontFamily="Arial" FontSize="9" Foreground="#FF080A0A" BorderBrush="#FF26B1DA" RenderTransformOrigin="0.5,0.5">
                     <Button.RenderTransform>
                         <TransformGroup>
                             <ScaleTransform/>
@@ -617,7 +617,7 @@
                         </LinearGradientBrush>
                     </Button.Background>
                 </Button>
-                <Button Content="MR" HorizontalAlignment="Left" Height="13" Margin="25,33,0,0" VerticalAlignment="Top" Width="20" IsDefault="True" FontFamily="Arial" FontSize="9" Foreground="#FF080A0A" BorderBrush="#FF26B1DA" RenderTransformOrigin="0.5,0.5">
+                <Button Content="MR" HorizontalAlignment="Left" Height="13" Margin="26,33,0,0" VerticalAlignment="Top" Width="20" IsDefault="True" FontFamily="Arial" FontSize="9" Foreground="#FF080A0A" BorderBrush="#FF26B1DA" RenderTransformOrigin="0.5,0.5">
                     <Button.RenderTransform>
                         <TransformGroup>
                             <ScaleTransform/>
@@ -667,7 +667,7 @@
                         </LinearGradientBrush>
                     </Button.Background>
                 </Button>
-                <Button Content="M+" HorizontalAlignment="Left" Height="13" Margin="75,33,0,0" VerticalAlignment="Top" Width="20" IsDefault="True" FontFamily="Arial" FontSize="9" Foreground="#FF080A0A" BorderBrush="#FF26B1DA" RenderTransformOrigin="0.5,0.5">
+                <Button Content="M+" HorizontalAlignment="Left" Height="13" Margin="76,33,0,0" VerticalAlignment="Top" Width="20" IsDefault="True" FontFamily="Arial" FontSize="9" Foreground="#FF080A0A" BorderBrush="#FF26B1DA" RenderTransformOrigin="0.5,0.5">
                     <Button.RenderTransform>
                         <TransformGroup>
                             <ScaleTransform/>
@@ -717,24 +717,16 @@
                         </LinearGradientBrush>
                     </Button.Background>
                 </Button>
-                <TextBox x:Name="Calc" HorizontalAlignment="Left" Height="22" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120" FontSize="10" RenderTransformOrigin="0.5,0.5">
-                    <TextBox.RenderTransform>
-                        <TransformGroup>
-                            <ScaleTransform/>
-                            <SkewTransform/>
-                            <RotateTransform/>
-                            <TranslateTransform/>
-                        </TransformGroup>
-                    </TextBox.RenderTransform>
-                    <TextBox.LayoutTransform>
-                        <TransformGroup>
-                            <ScaleTransform/>
-                            <SkewTransform/>
-                            <RotateTransform/>
-                            <TranslateTransform/>
-                        </TransformGroup>
-                    </TextBox.LayoutTransform>
-                </TextBox>
+
+
+                <TextBlock HorizontalAlignment="Left" Height="26" TextWrapping="Wrap" Text="123" VerticalAlignment="Top" Width="120" FontSize="20" IsEnabled="False" TextAlignment="Right">
+                    <TextBlock.Background>
+                        <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                            <GradientStop Color="White" Offset="0"/>
+                            <GradientStop Color="White" Offset="1"/>
+                        </LinearGradientBrush>
+                    </TextBlock.Background>
+                </TextBlock>
 
 
             </Grid>
